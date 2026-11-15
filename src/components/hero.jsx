@@ -40,7 +40,7 @@ export default function Hero() {
 
             <a
               className={Styles.button}
-              href="https://wa.me/8379419628"
+              href="https://wa.me/8349419628"
               target="_blank"
               rel="noopener noreferrer"
             >
