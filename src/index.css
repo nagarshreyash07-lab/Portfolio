@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+  scroll-margin-top: 110px;
+}
+
+:root {
+  /* Main colours */
+  --wine-dark: #35101D;
+  --wine: #641E32;
+  --wine-light: #922B49;
+
+  /* Shades */
+  --rose: #D8A5B2;
+  --ivory: #FFF5F0;
+
+  /* Website theme */
+  --background: var(--wine-dark);
+  --surface: var(--wine);
+  --primary: var(--wine-light);
+  --text: var(--ivory);
+  --muted: var(--rose);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--wine);
+}
